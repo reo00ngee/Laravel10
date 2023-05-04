@@ -20,3 +20,10 @@ php artisan key:generate
 モデル、コントローラーの作成
 php artisan make:model Ocr -mcr
 
+認証機能の実装
+composer require laravel/ui
+php artisan ui bootstrap --auth
+npm install && npm run dev
+rm -rf node_modules
+rm package-lock.json
+npm install && npm run dev
