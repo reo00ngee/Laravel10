@@ -1,3 +1,19 @@
 cloneする
 git clone https://github.com/reo00ngee/Laravel10 ディレクトリの名前
 
+コンテナに入る
+docker-compose exec app bash
+
+Laravelインストール
+composer create-project --prefer-dist laravel/laravel プロジェクト名
+
+Laravelプロジェクト移動
+cd プロジェクト名
+
+ストレージの権限変更
+chmod 777 -R storage/
+
+php artisan key:generate
+
+
+
