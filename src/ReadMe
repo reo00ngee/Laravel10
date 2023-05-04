@@ -15,5 +15,7 @@ chmod 777 -R storage/
 
 php artisan key:generate
 
+マイグレート
+
 
 
