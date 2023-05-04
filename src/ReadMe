@@ -17,5 +17,6 @@ php artisan key:generate
 
 マイグレート
 
-
+モデル、コントローラーの作成
+php artisan make:model Ocr -mcr
 
